@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinUIForms", "WinUIForms\WinUIForms.csproj", "{8466FA30-D458-4DF4-8564-AA5D566AA5A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinUIFormsTest", "WinUIFormsTest\WinUIFormsTest.csproj", "{B46CEB47-A390-403C-AD2C-0ABFEDF0C2EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8466FA30-D458-4DF4-8564-AA5D566AA5A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8466FA30-D458-4DF4-8564-AA5D566AA5A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8466FA30-D458-4DF4-8564-AA5D566AA5A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8466FA30-D458-4DF4-8564-AA5D566AA5A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B46CEB47-A390-403C-AD2C-0ABFEDF0C2EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B46CEB47-A390-403C-AD2C-0ABFEDF0C2EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B46CEB47-A390-403C-AD2C-0ABFEDF0C2EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B46CEB47-A390-403C-AD2C-0ABFEDF0C2EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7522B9C4-648E-49A0-A3DC-8B5C25A2C137}
+	EndGlobalSection
+EndGlobal
