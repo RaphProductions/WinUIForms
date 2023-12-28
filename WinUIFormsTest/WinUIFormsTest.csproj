@@ -19,5 +19,9 @@
   <ItemGroup>
     <ProjectReference Include="..\WinUIForms\WinUIForms.csproj" />
   </ItemGroup>
+	
+  <ItemGroup>
+    <Compile Remove="C:\Users\rapha\.nuget\packages\microsoft.windowsappsdk\1.4.231115000\buildTransitive\..\include\MddBootstrapAutoInitializer.cs" />
+  </ItemGroup>
 
 </Project>
