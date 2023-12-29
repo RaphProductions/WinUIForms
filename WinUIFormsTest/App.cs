@@ -2,6 +2,7 @@
 using System.Diagnostics;
 using System.Windows.Forms;
 using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Markup;
 using Microsoft.UI.Xaml.Media;
 using Microsoft.UI.Xaml.XamlTypeInfo;
@@ -10,6 +11,9 @@ using Application = Microsoft.UI.Xaml.Application;
 
 namespace WinUIFormsTest;
 
+/// <summary>
+/// C# equivalent of App.xaml
+/// </summary>
 internal class App : Application, IXamlMetadataProvider
 {
     private static XamlControlsXamlMetaDataProvider? xamlMetaDataProvider = null;
@@ -67,7 +71,7 @@ internal class App : Application, IXamlMetadataProvider
         {
             if (Debugger.IsAttached)
             {
-                //Debugger.Break();
+                Debugger.Break();
             }
         };
     }
@@ -75,6 +79,9 @@ internal class App : Application, IXamlMetadataProvider
     protected override void OnLaunched(LaunchActivatedEventArgs args)
     {
         base.OnLaunched(args);
+
+        this.Resources.MergedDictionaries.Add(new XamlControlsResources());
+
         Form tmp = new Form1();
         _mainWindow = tmp.ToWinUI(new MicaBackdrop());
         _mainWindow.Activate();

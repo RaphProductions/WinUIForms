@@ -5,13 +5,11 @@
 using Microsoft.UI.Dispatching;
 using Microsoft.UI.Xaml;
 using System;
-using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using Windows.Foundation.Metadata;
 using Windows.UI.ViewManagement;
-using Windows.UI.Xaml;
 
-namespace WinUIForms;
+namespace WinUIForms.Helpers;
 
 /// <summary>
 /// The Delegate for a ThemeChanged Event.
@@ -33,7 +31,7 @@ public sealed class ThemeListener : IDisposable
     /// </summary>
     public string CurrentThemeName
     {
-        get { return this.CurrentTheme.ToString(); }
+        get { return CurrentTheme.ToString(); }
     }
 
     /// <summary>
