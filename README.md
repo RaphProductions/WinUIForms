@@ -1,4 +1,6 @@
 # WinUIForms
+NOTE: This project is now part of the new Project Cappuccino desktop. This repository is kept online, archived while the desktop isn't open source.
+
 WinUIForms is a project to "convert WinForms forms to WinUI 3/WASDK forms".
 
 ## How it works
